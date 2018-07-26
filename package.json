@@ -8,6 +8,7 @@
     "webpack-cli": "^3.1.0"
   },
   "scripts": {
-    "dev": "webpack --mode development --module-bind 'js=babel-loader'"
+    "dev": "webpack --mode development --module-bind 'js=babel-loader'",
+    "build": "webpack --mode production --module-bind 'js=babel-loader'"
   }
 }
